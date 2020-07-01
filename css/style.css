@@ -92,8 +92,32 @@ main::after{
   width: 23%;
   margin-right: 2%;
   background-color: #fff;
+  padding: 15px;
+  line-height: 1.8;
 }
 
+.fa-rss-square{
+  display: inline-block;
+  color: orange;
+  font-size: 25px;
+  margin-right: 5%;
+  vertical-align:top;
+}
+
+.title-left h3{
+  display: inline-block;
+  color: #504741;
+  text-shadow: 2px 2px 0px rgba(0,0,0,.1);
+}
+
+.left-column{
+  list-style: none;
+}
+
+.left-column li{
+  margin-bottom: 18px;
+  color: #3F8C20
+}
 .clm-center{
   float: left;
   width: 50%;
@@ -105,6 +129,7 @@ main::after{
 .clm-center h3{
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: #504741;
   text-shadow: 2px 2px 0px rgba(0,0,0,.1);
 }
 
@@ -124,6 +149,7 @@ main::after{
 
 .part h3{
   margin-bottom: 20px;
+  color: #504741;
   text-shadow: 2px 2px 0px rgba(0,0,0,.1);
 }
 
