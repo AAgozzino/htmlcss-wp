@@ -6,16 +6,55 @@
 
 body{
   font-family: 'Lato', sans-serif;
+  background-image: url(../img/natural-default-pattern.png);
 }
 
 .container{
   width: 1000px;
   margin: auto;
+
 }
 
 header{
-  height: 200px;
-  background-color: yellow;
+  background-color: white;
+}
+
+.header-top{
+  height: 300px;
+  padding: 10px;
+}
+
+.header-image{
+  height: calc(300px - 20px);
+  background-image: url(../img/natural-default-header.jpg);
+  background-position: center;
+}
+
+nav{
+  height: 50px;
+  background-color: #514741;
+}
+
+.menu{
+  list-style: none;
+  text-align: center;
+}
+
+.menu li:hover{
+  background-color: #302B27;
+}
+
+.menu li{
+  display: inline-block;
+  font-size: 15px;
+  padding: 0 10px;
+}
+
+.menu a{
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 main{
